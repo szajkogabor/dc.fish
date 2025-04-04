@@ -5,6 +5,6 @@
 # Description   : Create and start containers running containers in the background.
 # Information   : https://docs.docker.com/compose/reference/up/
 
-function dcupb "Build and start containers."
+function dcupb -d "Build and start containers."
   docker-compose up --build $argv
 end
