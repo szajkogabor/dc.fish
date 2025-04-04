@@ -12,16 +12,10 @@
 
 ## Install
 
-With [Oh My Fish][omf-link]
-
-```fish
-omf install https://github.com/demartini/plugin-docker-compose
-```
-
 With [fisher][fisher-link]
 
 ```fish
-fisher install demartini/plugin-docker-compose
+fisher install szajkogabor/dc.fish
 ```
 
 ## Usage
