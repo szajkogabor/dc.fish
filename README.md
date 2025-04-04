@@ -15,13 +15,13 @@
 With [Oh My Fish][omf-link]
 
 ```fish
-$ omf install https://github.com/demartini/plugin-docker-compose
+omf install https://github.com/demartini/plugin-docker-compose
 ```
 
 With [fisher][fisher-link]
 
 ```fish
-$ fisher add demartini/plugin-docker-compose
+fisher install demartini/plugin-docker-compose
 ```
 
 ## Usage
@@ -52,6 +52,7 @@ $ fisher add demartini/plugin-docker-compose
 | dctop            | `docker-compose top`     | Display the running processes.                             |
 | dcunp            | `docker-compose unpause` | Unpause services.                                          |
 | dcup             | `docker-compose up`      | Create and start containers                                |
+| dcupb            | `docker-compose up --build` | Create and start containers                                |
 | dcupd            | `docker-compose up -d`   | Create and start containers in the background.             |
 | dcv              | `docker-compose version` | Show the Docker-Compose version information.               |
 
